@@ -1,7 +1,8 @@
 <header>
     <h1>PokeShop</h1>
     <div class="search-bar">
-        <input type="text" placeholder="Search for Pokemons">
+        <input (keyup)="onEnter($event)" placeholder="Search for a pokemon">
+        <div class="log"><p>{{value}}</p></div>  
     </div>
     <div class="profile">
         <a href="">

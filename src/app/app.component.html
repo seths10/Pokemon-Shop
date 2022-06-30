@@ -1,2 +1,3 @@
-<app-header></app-header>
-<app-pokemon-card></app-pokemon-card>
+<app-header (emitter)="send($event)" ></app-header>
+
+<app-pokemon-card [word]='searchWord'></app-pokemon-card>

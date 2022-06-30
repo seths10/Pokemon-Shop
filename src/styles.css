@@ -7,9 +7,15 @@
 }
 
 html {
-    background: white;
+    background: #14162b;
 }
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* app-header {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 1000px;
+} */
