@@ -19,7 +19,6 @@ export class PokemonCardComponent implements OnInit, AfterViewInit, OnChanges {
     
       const fill =  this.pokeArray.filter((data) => {return data.name ===this.word})
       this.pokemons= fill
-      console.log("dhdhdh", fill)
     }else{
       this.pokemons= this.pokeArray
     }
